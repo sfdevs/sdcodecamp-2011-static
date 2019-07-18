@@ -1,0 +1,209 @@
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, menu, time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background:transparent;
+} 
+article, aside, figure, footer, header, hgroup, nav, section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+    margin:0;
+} 
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:''; content:none;
+}
+a {
+    background:transparent;
+    border:0; 
+    font-size:100%; 
+    margin:0; 
+    padding:0; 
+    vertical-align:baseline; 
+}
+ins {
+    background-color:#ff9; 
+    color:#000; 
+    text-decoration:none;
+}
+mark {
+    background-color:#ff9; 
+    color:#000; 
+    font-style:italic; 
+    font-weight:bold; 
+}
+del {
+    text-decoration: line-through; 
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000; 
+    cursor:help; 
+}
+table {
+    border-collapse:collapse; 
+    border-spacing:0; 
+}
+hr {
+    display:block; 
+    height:1px; 
+    border:0; 
+    border-top:1px solid #ccc; 
+    margin:1em 0; 
+    padding:0; 
+}
+input, select {
+    vertical-align:middle; 
+}
+
+
+/* Typography */
+
+body {
+    font:13px arial,helvetica,"Nimbus Sans L", "Bitstream Vera Sans", sans-serif; 
+    *font-size:small; 
+    *font:x-small; 
+    line-height:1.22; 
+}
+table {
+    font-size:inherit; 
+    font:100%; 
+}
+select, input, textarea {
+    font:99% arial,helvetica,"Nimbus Sans L", "Bitstream Vera Sans", sans-serif; 
+}
+code, pre {
+    font-family: "Courier New", monospace, serif; 
+    font-size: 1em; 
+}
+body, select, input, textarea {
+    color:#444; 
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold; 
+    text-rendering: optimizeLegibility; 
+}
+html {
+    -webkit-font-smoothing: antialiased; 
+}
+a:active {
+    outline: none; 
+}
+a:focus {
+    outline: thin dotted; 
+}
+a, a:active, a:visited {
+    color:#dc6827; 
+}
+a:focus,
+a:hover {
+    color: #f8945b;
+}
+ul {
+    margin-left:30px; 
+}
+ol {
+    margin-left:30px; 
+    list-style-type: decimal; 
+}
+small {
+    font-size:85%; 
+}
+strong, th {
+    font-weight: bold; 
+}
+td, td img {
+    vertical-align:top; 
+}
+sub {
+    vertical-align: sub; 
+    font-size: smaller; 
+}   
+sup {
+    vertical-align: super; 
+    font-size: smaller; 
+}
+pre {
+    padding: 15px;
+    white-space: pre; /* CSS2 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+    word-wrap: break-word; /* IE */
+}
+ 
+input[type="radio"] {
+    vertical-align: text-bottom; 
+}
+input[type="checkbox"] {
+    vertical-align: bottom; *vertical-align: baseline; 
+}
+.ie6 input {
+    vertical-align: text-bottom; 
+}
+label, input[type=button], input[type=submit], button {
+    cursor: pointer; 
+}
+::-moz-selection{ 
+    background: #af3; 
+    color:#fff; 
+    text-shadow: none; 
+}
+::selection {
+    background:#af3; color:#fff; text-shadow: none; 
+}
+a:link {
+    -webkit-tap-highlight-color: #af3; 
+}
+html {
+    overflow-y: scroll; 
+}
+button {
+    width: auto; 
+    overflow: visible; 
+}   
+.ie7 img {
+    -ms-interpolation-mode: bicubic; 
+}
+.ir {
+    background-repeat: none; 
+    direction:ltr; 
+    display:block; 
+    overflow:hidden; 
+    text-indent:-999px; 
+}
+.hidden {
+    display:none; visibility:hidden; 
+}
+.visuallyhidden {
+    position:absolute !important; 
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px); 
+}
+.invisible {
+    visibility: hidden; 
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden; 
+}   
+.clearfix {
+    display: inline-block; 
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block; 
+}

@@ -1,0 +1,391 @@
+/* Layout  */
+body {
+  background: #134e57 url(../Content/images/code_camp-flannel.jpg) top center repeat;
+  color: #fff;
+  text-align: center; }
+
+.design {
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+  width: 950px; }
+
+header.site {
+  background: rgba(0, 0, 0, 0.35) url(../Content/images/code_camp-wood.jpg) center 44px repeat-x;
+  height: 140px; }
+
+header.site h1 a {
+  background: transparent url(../Content/images/code_camp-logo.png) no-repeat left top;
+  height: 158px;
+  left: 280px;
+  position: absolute;
+  top: 15px;
+  width: 409px; }
+
+#header h1 {
+  border-bottom: 0; }
+
+nav.site {
+  height: 40px;
+  margin-top: 95px;
+  position: relative;
+  overflow: hidden; }
+
+nav.site li {
+  float: left;
+  margin-right: -28px;
+  position: relative; }
+
+nav.site li a {
+  background: transparent url(../Content/images/code_camp-tab.png) no-repeat left top;
+  color: #555555;
+  display: block;
+  height: 20px;
+  padding: 10px 15px 10px 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 4px;
+  width: 110px; }
+
+nav.site li a:hover, nav.site li a:focus {
+  color: #dc6827;
+  top: 0px; }
+
+nav.site li a:first-child {
+  padding: 10px 20px; }
+
+nav.site li.selected {
+  z-index: 200 !important; }
+
+nav.site li.selected a {
+  background-position: 0px -106px;
+  top: 0px; }
+
+#layout-content {
+  margin-bottom: 2em; }
+
+.main .design {
+  background: #f2f0e6 url(../Content/images/code_camp-paper.jpg) top left repeat-x;
+  color: #555555; }
+
+.main .design .wood {
+  background: transparent url(../Content/images/code_camp-trim.jpg) repeat-x left bottom;
+  padding: 50px 30px 40px;
+  width: 890px; }
+
+.main .design .wood .content {
+  display: inline;
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 550px; }
+
+.main .design .wood .fullwidth .content {
+  display: block;
+  float: none;
+  position: relative;
+  width: 890px; }
+
+.main .design .wood .sidebar {
+  background: rgba(114, 77, 30, 0.25);
+  border: 3px solid #fff;
+  float: right;
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+  width: 270px; }
+
+.main .design .wood .sidebar .content {
+  width: auto; }
+
+.presentation .metadata {
+  clear: left; }
+
+footer.site {
+  background: rgba(0, 0, 0, 0.35);
+  margin-top: 15px; }
+
+footer.site .design.clearfix {
+  padding: 23px 0; }
+
+footer.site section {
+  border-left: 2px dotted #606e6c;
+  display: inline;
+  display: inline-block;
+  float: left;
+  margin-left: 25px;
+  min-height: 215px;
+  overflow: hidden;
+  padding: 0 19px 15px;
+  position: relative;
+  width: 240px; }
+
+footer.site section:last-child {
+  border-right: 2px dotted #606e6c; }
+
+footer.site section h4 {
+  border: 0;
+  color: #f2f0e6;
+  font: italic 18px/1.2 "Helvetica Neue", Helvetica, Arial, sans;
+  margin-bottom: 8px;
+  padding: 0;
+  text-transform: uppercase; }
+
+footer.site section .byline {
+  color: #aaa; }
+
+footer.site .dark {
+  background: #000;
+  color: #aaa;
+  padding: 15px 0 93px; }
+
+footer.site .dark .design {
+  text-align: center; }
+
+.zone-footer {
+  background: #000000;
+  color: #AAAAAA;
+  padding: 15px 0 93px; }
+
+i
+.user-actions a {
+  color: #180000; }
+
+::selection {
+  background: #9dd; }
+
+/* Content */
+p {
+  margin-bottom: 1em; }
+
+h3 a, h3 a:active, h3 a:visited {
+  color: #134e57; }
+
+ul.list-items {
+  list-style: none; }
+
+ul.list-items li {
+  margin-bottom: 20px; }
+
+h1, h2, h3, h4, h5 {
+  border-bottom: 2px dotted #555555;
+  color: #134e57;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em; }
+
+h1 {
+  font-size: 32px; }
+
+h2 {
+  font-size: 20px; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 14px; }
+
+h5 {
+  color: #000; }
+
+h6 {
+  font-weight: bold; }
+
+div.content-item.page header {
+  min-height: 60px; }
+
+.zone-content table {
+  border-collapse: separate;
+  border-spacing: 3px; }
+  .zone-content table thead {
+    font-weight: bold; }
+  .zone-content table tr {
+    background: #deded4;
+    background: rgba(0, 0, 0, 0.08);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#08000000,endColorstr=#08000000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#08000000,endColorstr=#08000000);
+    zoom: 1; }
+  .zone-content table tr:nth-child(2n) {
+    background: #f7f7f2;
+    background: rgba(255, 255, 255, 0.5);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#32FFFFFF,endColorstr=#32FFFFFF);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#32FFFFFF,endColorstr=#32FFFFFF);
+    zoom: 1; }
+  .zone-content table td {
+    padding: 5px; }
+
+/* Orange Titles */
+.pagetitle {
+  background: transparent url(../Content/images/code_camp-heading.png) no-repeat right center;
+  border: 0;
+  color: #f2f0e6;
+  float: left;
+  font: 600 italic 32px/1 "Helvetica Neue", Helvetica, Arial, sans;
+  margin: 0 0 0.75em -30px;
+  padding: 0 32px 0.5em 0;
+  position: relative;
+  text-transform: uppercase; }
+
+.pagetitle span {
+  background: #dc6827;
+  display: block;
+  line-height: 1.5;
+  margin-bottom: -0.5em;
+  padding: 0.125em 30px 0em; }
+
+h1.pagetitle {
+  font-size: 30px; }
+
+h2.pagetitle {
+  font-size: 24px; }
+
+h3.pagetitle {
+  font-size: 20px; }
+
+h4.pagetitle {
+  font-size: 18px; }
+
+h5.pagetitle {
+  font-size: 14px; }
+
+h6.pagetitle {
+  font-size: 12px; }
+
+/* Register Button */
+.register {
+  clear: both; }
+
+.register em {
+  background: transparent url(../Content/images/code_camp-arrow.png) no-repeat left top;
+  display: block;
+  min-height: 61px;
+  padding: 20px 0 0 50px; }
+
+.register em a {
+  background: transparent url(../Content/images/code_camp-register-now.png) no-repeat left top;
+  height: 44px;
+  width: 166px; }
+
+/* Chicklets */
+ul.social {
+  margin: 2em 0 0; }
+
+ul.social li {
+  float: left;
+  list-style: none;
+  margin-right: 5px; }
+
+ul.social li a {
+  background: transparent url(../Content/images/code_camp-social_icons.png) no-repeat left top;
+  height: 23px;
+  text-decoration: none;
+  width: 24px; }
+
+ul.social li a:focus, ul.social li a:hover {
+  background-position: 0 -23px; }
+
+ul.social li a.tw {
+  background-position: -29px 0; }
+
+ul.social li a.tw:focus, ul.social li a.tw:hover {
+  background-position: -29px -23px; }
+
+/* General Classes */
+.byline {
+  font-size: 10px; }
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #444 !important;
+    text-shadow: none; }
+
+  a, a:visited {
+    color: #444 !important;
+    text-decoration: underline; }
+
+  a:after {
+    content: " (" attr(href) ")"; }
+
+  abbr:after {
+    content: " (" attr(title) ")"; }
+
+  .ir a:after {
+    content: ""; }
+
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  img {
+    page-break-inside: avoid; }
+
+  @page {
+    margin: 0.5cm; }
+
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2, h3 {
+    page-break-after: avoid; } }
+@media only screen and (max-width: 480px) {
+  html {
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none; }
+
+  .design {
+    width: 320px; }
+
+  header.site h1 a {
+    background-position: center top;
+    left: 0;
+    top: 8px;
+    position: relative; }
+
+  nav.site {
+    height: auto;
+    overflow: visible; }
+
+  nav.site li {
+    margin: 0 5px 5px 0; }
+
+  nav.site li a {
+    background: rgba(205, 250, 250, 0.75);
+    background-image: none;
+    color: #dc6827;
+    font-wieght: bold;
+    margin: 0;
+    padding: 45px 0;
+    width: 155px; }
+
+  nav.site li a:focus,
+  nav.site li a:hover {
+    color: #fff;
+    background: #dc6827; }
+
+  .main .design .wood {
+    width: auto; }
+
+  .main .design .wood .content {
+    width: auto; }
+
+  .footer.site .design.clearfix {
+    padding: 0; }
+
+  .footer.site section {
+    border: none;
+    border-bototm: 2px dotted #606e6c;
+    border-left: medium none;
+    display: block;
+    float: none;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+    width: 290px; } }
